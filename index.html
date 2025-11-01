@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Quiz Challenge</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>JavaScript Quiz Challenge 💡</h1>
+  </header>
+
+  <main>
+    <section id="intro">
+      <p>Test your knowledge about JavaScript basics! Choose the correct answers and see how you do.</p>
+    </section>
+
+    <section id="quiz">
+      <form id="quizForm">
+        <div class="question">
+          <h3>1. Which keyword is used to declare a variable in JavaScript?</h3>
+          <label><input type="radio" name="q1" value="a"> var</label><br>
+          <label><input type="radio" name="q1" value="b"> int</label><br>
+          <label><input type="radio" name="q1" value="c"> let</label><br>
+        </div>
+
+        <div class="question">
+          <h3>2. What does the DOM stand for?</h3>
+          <label><input type="radio" name="q2" value="a"> Document Object Model</label><br>
+          <label><input type="radio" name="q2" value="b"> Data Object Management</label><br>
+          <label><input type="radio" name="q2" value="c"> Digital Object Model</label><br>
+        </div>
+
+        <div class="question">
+          <h3>3. Which symbol is used for comments in JavaScript?</h3>
+          <label><input type="radio" name="q3" value="a"> //</label><br>
+          <label><input type="radio" name="q3" value="b"> <!-- --></label><br>
+          <label><input type="radio" name="q3" value="c"> #</label><br>
+        </div>
+
+        <button type="button" id="submitBtn">Submit</button>
+      </form>
+    </section>
+
+    <section id="results" class="hidden">
+      <h2>Your Results</h2>
+      <p id="scoreDisplay"></p>
+      <p id="messageDisplay"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Web Dev Lab | Interactive Quiz Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
